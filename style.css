@@ -69,3 +69,39 @@ span{
   color: rgba(16, 17, 17, 0.664);
 }
 
+.recipies-content h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.637);
+}
+.recipies-content p{
+    line-height:10px;
+    text-align: center;
+}
+
+.recipies-area{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.recipies-item {
+border-radius: 20px;
+box-shadow: 1px 4px 18px 10px rgba(102,102,102,0.2);
+}
+.recipies-item img{
+    padding: 8px;
+    width: 95%;
+}
+.recipies-item h1,p{
+  padding-left: 20px;
+}
+
+.recipies-item1{
+    margin-left: 6%;
+}
+.recipies-item2{
+    margin-left: 3%;
+}
+.recipies-item3{
+    margin-left: 3%;
+    margin-right: 6%;
+}
