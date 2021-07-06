@@ -197,9 +197,49 @@ footer h1 span{
 
 /* Note: When I'm add #footer-section h1,p{ } this  way. Then full pages p tag are blank.. So I'm use this way: #footer-section p and  #footer-section h1 . If you give me suggestion please mail me: shofiurbd13@gmail.com */
 
+/* delivery section start here */
+
+.delivery-section{
+  background-color: #FEF3EC;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.delivery-content{
+    margin-bottom: 6%;
+    margin-top: 6%;
+    text-align: center;
+    line-height: 10px;
+}
+
+.delivery-content h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
 
 
 
+.delivery{
+    display:flex;
+    margin-bottom: 6%;
+}
+.delivery-feature{
+    border-radius:10px;
+    box-shadow: 1px 4px 18px 10px rgba(102,102,102,0.2);
+    margin-left: 5.5%;
+    text-align: center;
+    line-height: 10px;
+padding-right: 8px;
+padding-bottom:5%;
+}
+.delivery-feature img{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.delivery-feature h3{
+ text-align: center;
+ padding-bottom:5%;
+}
 
 
 
