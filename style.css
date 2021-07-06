@@ -4,10 +4,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.hero-section{
+.flex-added{
    display: flex;
 }
-.hero-width{
+.half-width{
     width: 45%;
     padding-left:8%
 }
@@ -22,14 +22,14 @@ body{
 span{
     color:#FF7F50;
 }
-.order-link{
+.global-link-style{
   text-decoration: none;
   color: white;
   font-size: 20px;
   font-weight: 600;
  
 }
-.order-button{
+.global-button-style{
     padding:23px 50px;
     margin-top: 5%;
     border-radius: 53px;
@@ -39,5 +39,33 @@ span{
 
 .hero-child-two img{
     width: 95%;
+}
+.about-section{
+    margin-top: 5%;
+    margin-bottom:5%;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-images {
+    margin-top:4%;
+    
+}
+.about-images img{
+    width: 62%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+.about-content{
+    margin-top: 10%;
+}
+.about-content{
+    padding-right: 9%;
+}
+.about-content h1{
+  font-size: 40px;
+  color: rgba(16, 17, 17, 0.664);
 }
 
