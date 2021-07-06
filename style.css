@@ -4,6 +4,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/*Hero Section Start Here*/
+
 .flex-added{
    display: flex;
 }
@@ -21,6 +23,7 @@ body{
 }
 span{
     color:#FF7F50;
+    padding-right: 10px;
 }
 .global-link-style{
   text-decoration: none;
@@ -40,6 +43,9 @@ span{
 .hero-child-two img{
     width: 95%;
 }
+
+/*About Section Start Here*/
+
 .about-section{
     margin-top: 5%;
     margin-bottom:5%;
@@ -68,6 +74,8 @@ span{
   font-size: 40px;
   color: rgba(16, 17, 17, 0.664);
 }
+
+/*recipes Section Start Here*/
 
 .recipies-content h1{
     text-align: center;
@@ -105,3 +113,47 @@ box-shadow: 1px 4px 18px 10px rgba(102,102,102,0.2);
     margin-left: 3%;
     margin-right: 6%;
 }
+
+
+/*Counter Section Start Here*/
+
+
+.counter{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    padding: 2%;
+    border-radius:10px;
+    box-shadow: 1px 4px 18px 10px rgba(102,102,102,0.2);
+    
+}
+.counter-sections{
+padding-left: 9%;
+padding-right: 5%;
+}
+.counter-sections h1{
+ text-align: center;
+ font-size: 40px;
+}
+.counter-sections p{
+    margin-top:-30px;
+}
+
+/*Footer Section Start Here*/
+
+footer{
+    background-color:rgba(31, 38, 39, 0.897);
+    padding-top:5px;
+    padding-bottom:8%;
+}
+
+#footer-section h1{
+    text-align:center;
+    color: rgba(255, 255, 255, 0.712);
+}
+#footer-section p{
+    text-align:center;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+/* Note: When I'm add #footer-section h1,p{ } this  way. Then full pages p tag are blank.. So I'm use this way: #footer-section p and  #footer-section h1 . If you give me suggestion please mail me: shofiurbd13@gmail.com/
